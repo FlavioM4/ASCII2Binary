@@ -1,8 +1,5 @@
 import os
-from tkinter import *
 
-win = TK()
-win.title("ASCII to Binary")
 asciiToBinary = {
 	"a" : "01100001",
 	"b" : "01100010",
@@ -10,7 +7,7 @@ asciiToBinary = {
 	"d" : "01100100",
 	"e" : "01100101",
 	"f" : "01100110",
-	"g": "01100111",
+	"g" : "01100111",
 	"h" : "01101000",
 	"i" : "01101001",
 	"j" : "01101010",
